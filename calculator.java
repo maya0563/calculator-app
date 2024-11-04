@@ -26,9 +26,6 @@ public class Calculator {
 		case "power":
 			System.out.println(x + " ^ " + y + " = " + power(x, y));
 			break;
-		case "root":
-			System.out.println(x + " ^ (1/" + y + ") = " + root(x, y));
-			break;
 		}
 	}
 	
@@ -50,10 +47,6 @@ public class Calculator {
 	
 	public static double power (double x, double y) {
 		return Math.pow(x, y);
-	}
-	
-	public static double root (double x, double y) {
-		return Math.pow(x, 1/y);
 	}	
 	
 }
